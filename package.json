@@ -1,0 +1,28 @@
+{
+  "name": "flash-usdt-contract",
+  "version": "1.0.0",
+  "description": "A comprehensive Flash USDT smart contract with swap, transfer, and trading functionalities",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "erc20",
+    "usdt",
+    "smart-contract"
+  ],
+  "author": "iliasnassabi8-cloud",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.14.0",
+    "chai": "^4.3.7",
+    "ethers": "^5.7.2"
+  },
+  "dependencies": {}
+}
